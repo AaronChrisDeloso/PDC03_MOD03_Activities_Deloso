@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.Activity1"
+             Title="StackLayout">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10" BackgroundColor="Blue" >
+
+            <StackLayout      
+                BackgroundColor="SkyBlue"                    
+                HorizontalOptions="CenterAndExpand"               
+                VerticalOptions="CenterAndExpand">
+                <Frame CornerRadius="15" Margin="10">
+                    <Label Text="Ryujin"
+                       HorizontalOptions="Fill"
+                       FontAttributes="Bold"
+                       FontSize="Large"/>
+                </Frame>
+            </StackLayout>
+            
+            <StackLayout Margin="10,10,10,10" BackgroundColor="SkyBlue" 
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Image Source="ryujin1"
+                   IsAnimationPlaying="True"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"/>
+            </StackLayout>
+            
+            <StackLayout 
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand">
+                
+                <Button Clicked="Back1" Text="Back" BackgroundColor="LightBlue" CornerRadius="25"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
