@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.Activity3" Title="Grid">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Grid Colors"
+                       HorizontalOptions="CenterAndExpand"
+                       Margin="25"
+                       FontAttributes="Bold"
+                       FontSize="Large"/>
+            
+            <Frame BackgroundColor="LightBlue" CornerRadius="15" Margin="10" 
+                   HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="CenterAndExpand">
+                
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="100"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <BoxView Color="Red" CornerRadius="15"                         
+                         Grid.Row="0" Grid.Column="0"
+                         Grid.RowSpan="2"
+                         Margin="5"/>
+                
+                <BoxView Color="Gray" CornerRadius="15" 
+                         Grid.Row="0" Grid.Column="1" 
+                         Margin="5"/>
+                
+                
+                <BoxView Color="Green" CornerRadius="15" 
+                         Grid.Row="1" Grid.Column="1"
+                         Margin="5"/>
+                
+                <BoxView Color="Gold" CornerRadius="15" 
+                         Grid.Row="2" Grid.Column="0"
+                         Grid.ColumnSpan="2"
+                         Margin="5"/>
+
+                <BoxView Color="DarkMagenta" CornerRadius="15" 
+                         Grid.Row="3" Grid.Column="0"
+                         Margin="5"/>
+
+                <BoxView Color="DarkBlue" CornerRadius="15" 
+                         Grid.Row="3" Grid.Column="1"
+                         Margin="5"/>
+                </Grid>
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
