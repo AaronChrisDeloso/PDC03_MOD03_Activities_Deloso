@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.Activity2"
+             Title="StackLayout and Frame">
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+
+            <Frame BorderColor="Black" CornerRadius="25" Margin="5">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="Red" CornerRadius="15" Margin="0,0,10,0"/>
+                    <Label Text="Red" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="25" Margin="5">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="Blue" CornerRadius="15" Margin="0,0,10,0"/>
+                    <Label Text="Blue" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="25" Margin="5">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="Black" CornerRadius="15" Margin="0,0,10,0"/>
+                    <Label Text="Black" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="25" Margin="5">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="Yellow" CornerRadius="15" Margin="0,0,10,0"/>
+                    <Label Text="Yellow" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="25" Margin="5">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="Green" CornerRadius="15" Margin="0,0,10,0"/>
+                    <Label Text="Green" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="25" Margin="5">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="Purple" CornerRadius="15" Margin="0,0,10,0"/>
+                    <Label Text="Purple" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="25" Margin="5">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="Gray" CornerRadius="15" Margin="0,0,10,0"/>
+                    <Label Text="Gray" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
