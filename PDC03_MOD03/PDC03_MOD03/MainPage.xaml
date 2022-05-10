@@ -13,6 +13,7 @@
                 <Button Clicked="Activity02" Text="Activity 2 : StackLayout and Frame" BackgroundColor="LightBlue" CornerRadius="25"/>
                 <Button Clicked="Activity03" Text="Activity 3 : Grid" BackgroundColor="LightBlue" CornerRadius="25"/>
                 <Button Clicked="Activity04" Text="Activity 4 : Absolute Layout" BackgroundColor="LightBlue" CornerRadius="25"/>
+                <Button Clicked="Activity05" Text="Activity 5 : RelativeLayout" BackgroundColor="LightBlue" CornerRadius="25"/>
             </StackLayout>
         </Frame>
     </StackLayout>
