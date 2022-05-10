@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.Activity6"
+             Title="DisplayImage">
+    <ContentPage.Content>
+        <Frame BackgroundColor="LightBlue"  CornerRadius="25" Margin="0,75,0,75">
+        <StackLayout>
+                      
+                        <Label Text="Ryujin Gallery!" FontSize="Large" FontAttributes="Bold"  HorizontalOptions="Center"/>
+                        
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+
+
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="170"/>
+                                    <ColumnDefinition Width="170"/>
+                                </Grid.ColumnDefinitions>
+
+                    <Frame  Padding="0" CornerRadius="25" Grid.Row="0" Grid.Column="0">
+                                <Image Source="ryujin3" />
+                            </Frame>
+                    <Frame Padding="0" CornerRadius="25" Grid.Row="0" Grid.Column="1">
+                                <Image Source="ryujin4"/>
+                            </Frame>
+                    <Frame Padding="0" CornerRadius="25" Grid.Row="1" Grid.Column="0">
+                               <Image Source="ryujin5" />
+                             </Frame>
+                    <Frame Padding="0" CornerRadius="25" Grid.Row="1" Grid.Column="1">
+                               <Image Source="ryujin6"/>
+                            </Frame>
+
+                            </Grid>
+                     
+              
+                    <Button x:Name="BtnConnect" Text="Connect" BackgroundColor="DarkBlue" FontSize="Large" TextColor="White" CornerRadius="30" Margin="10"></Button>
+
+                    <ActivityIndicator IsRunning="{Binding IsBusy}" Color="DarkBlue" HorizontalOptions="Center"/>
+
+              
+        </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

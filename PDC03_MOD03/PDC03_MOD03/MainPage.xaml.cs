@@ -34,5 +34,9 @@ namespace PDC03_MOD03
         {
             await Navigation.PushAsync(new Activity5());
         }
+        private async void Activity06(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Activity6());
+        }
     }
 }

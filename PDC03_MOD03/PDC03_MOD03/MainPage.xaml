@@ -9,11 +9,12 @@
         </Frame>
         <Frame BackgroundColor="#2196F3" CornerRadius="15">
             <StackLayout>
-                <Button Clicked="Activity01" Text="Activity 1 : StackLayout" BackgroundColor="LightBlue" CornerRadius="25"/>
-                <Button Clicked="Activity02" Text="Activity 2 : StackLayout and Frame" BackgroundColor="LightBlue" CornerRadius="25"/>
+                <Button Clicked="Activity01" Text="Activity 1 : Stack Layout" BackgroundColor="LightBlue" CornerRadius="25"/>
+                <Button Clicked="Activity02" Text="Activity 2 : Stack Layout and Frame" BackgroundColor="LightBlue" CornerRadius="25"/>
                 <Button Clicked="Activity03" Text="Activity 3 : Grid" BackgroundColor="LightBlue" CornerRadius="25"/>
                 <Button Clicked="Activity04" Text="Activity 4 : Absolute Layout" BackgroundColor="LightBlue" CornerRadius="25"/>
-                <Button Clicked="Activity05" Text="Activity 5 : RelativeLayout" BackgroundColor="LightBlue" CornerRadius="25"/>
+                <Button Clicked="Activity05" Text="Activity 5 : Relative Layout" BackgroundColor="LightBlue" CornerRadius="25"/>
+                <Button Clicked="Activity06" Text="Activity 6 : Display Image" BackgroundColor="LightBlue" CornerRadius="25"/>
             </StackLayout>
         </Frame>
     </StackLayout>
