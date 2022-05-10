@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.Activity4" Title="Absolute Layout">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+
+            <Frame BackgroundColor="LightBlue" CornerRadius="25">
+                <StackLayout>
+            <Frame>
+                <AbsoluteLayout Margin="20">
+                    <BoxView Color="Blue" AbsoluteLayout.LayoutBounds="-10,-30,300,10"/>
+                    <BoxView Color="Blue" AbsoluteLayout.LayoutBounds="-10,290,300,10"/>
+                            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="-20,-20,10,310"/>
+                            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="290,-20,10,310"/>
+
+
+
+                            <Entry AbsoluteLayout.LayoutBounds="0,0,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Input Username" 
+                                           HorizontalOptions="FillAndExpand"/>
+
+                            <Entry AbsoluteLayout.LayoutBounds="0,60,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Input Email Address" 
+                                           HorizontalOptions="FillAndExpand"/>
+
+                            <Entry AbsoluteLayout.LayoutBounds="0,120,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Input Password" 
+                                           HorizontalOptions="FillAndExpand" IsPassword="True"/>
+
+                            <Entry AbsoluteLayout.LayoutBounds="0,180,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Confirm Password" 
+                                           HorizontalOptions="FillAndExpand" IsPassword="True"/>
+                    
+
+                            <Button Text="Register" BackgroundColor="LightBlue" TextColor="White" CornerRadius="30"  FontSize="Medium" FontAttributes="Bold"
+                                AbsoluteLayout.LayoutBounds="0,230,1,40"
+                                AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                                    VerticalOptions="CenterAndExpand"/>
+
+                        </AbsoluteLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
